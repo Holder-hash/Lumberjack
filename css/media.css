@@ -1,0 +1,95 @@
+@media (max-width: 1600px) {
+    .price__cards__contain {
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price___card:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .earth___card {
+        flex-direction: column-reverse;
+    }
+    .earth___card img {
+        width: 35%;
+    }
+
+    .modern___card {
+        flex-direction: column-reverse;
+    }
+    .modern___card img {
+        width: 65%;
+    }
+
+    .team___card {
+        flex-direction: column-reverse;
+    }
+    .team___card img {
+        width: 55%;
+    }
+
+    .earth___card h3 {
+        text-align: center;
+    }
+
+    .modern___card h3 {
+        text-align: center;
+    }
+
+    .team___card h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .earth___card img {
+        width: 50%;
+    }
+
+    .modern___card img {
+        width: 80%;
+    }
+
+    .team___card img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header_text {
+        font-size: 30px;
+    }
+
+    .contact {
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 445px) {
+    .earth___card h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .modern___card h3 {
+        font-size: 17px;
+    }
+
+    .team___card h3 {
+        font-size: 17px;
+    }
+
+    .contact {
+        font-size: 8.5px;
+    }
+}

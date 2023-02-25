@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Lumberjack</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header_text">
+            <h1>Lumberjack</h1>
+        </div>
+
+        <div class="headerImg_contain">
+            <div class="headerImg"></div>
+        </div>
+
+        <div class="contact">
+            <h2>+7 (800) 555-35-35</h2>
+            <h2>example@mail.com</h2>
+        </div>
+    </header>
+
+    <main>
+        <a href="#" id="scroll_top" title="Наверх"></a>
+
+        <div class="main_contain">
+
+            <div class="benefits_contain">
+
+                <div class="benefits__text">
+                    <h2>Наши преимущества</h2>
+                </div>
+
+                <!--Earth-->
+                <div class="earth___card active">
+
+                    <h3>Рубим леса по всему земному шару!</h3>
+
+                    <img src="images/earth.png" alt="планета Земля">
+
+                </div>
+
+                <!--modern-->
+                <div class="modern___card">
+
+                    <h3>Современное оборудование!</h3>
+
+                    <img src="images/modern.png" alt="Лесопилка нового поколнеия">
+                    
+                </div>
+
+                <!--team-->
+                <div class="team___card">
+
+                    <h3>Команда профессионалов!</h3>
+
+                    <img src="images/team.png" alt="Команда профессионалов">
+                    
+                </div>
+
+            </div>
+
+
+            <!--Price cards-->
+            <div class="price_contain">
+
+                <div class="price__text">
+                    <h2>Прайс лист</h2>
+                </div>
+
+                <div class="price__cards__contain">
+
+                    <div class="price___card first">
+                        <h3>Лесник на дачу</h3>
+                        <img src="images/first-price-card.png" alt="Опытный лесоруб">
+                        <p>
+                            Вызов опытного лесника для малой вырубки
+                        </p>
+                        <p class="summa">
+                            от 2.500р/дерево
+                        </p>
+                    </div>
+
+                    <div class="price___card second">
+                        <h3>Команда лесорубов</h3>
+                        <img src="images/second-price-card.png" alt="Опытный лесоруб">
+                        <p>
+                            Команда опытных лесорубов для средней вырубки
+                        </p>
+                        <p class="summa">
+                            от 5.000р/га
+                        </p>
+                    </div>
+
+                    <div class="price___card third">
+                        <h3>Сквад лесорубов</h3>
+                        <img src="images/third-price-card.png" alt="Опытный лесоруб">
+                        <p>
+                            современное оборудование для крупной вырубки
+                        </p>
+                        <p class="summa">
+                            от 10.000р/га
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_contain">
+
+            <div class="brend__contain">
+                <h2>Lumberjack&#169;</h2>
+                <p>
+                    Данная организация является вымошленной и не предоставляет никаких услуг по рубке деревьев!
+                </p>
+            </div>
+
+            <form action="#">
+                <h2>Остались вопросы?</h2>
+
+                <div class="mail__inp">
+                    <legend>E-Mail / Телефон <span>&#8595;</span></legend>
+                    <input type="text" id="mailInp">
+                </div>
+
+                <input type="submit" class="submit">
+
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script>
+        SmoothScroll({
+        // Время скролла 400 = 0.4 секунды
+        animationTime    : 700,
+        // Размер шага в пикселях 
+        stepSize         : 75,
+
+        // Дополнительные настройки:
+        
+        // Ускорение 
+        accelerationDelta : 30,  
+        // Максимальное ускорение
+        accelerationMax   : 2,   
+
+        // Поддержка клавиатуры
+        keyboardSupport   : true,  
+        // Шаг скролла стрелками на клавиатуре в пикселях
+        arrowScroll       : 50,
+
+        // Pulse (less tweakable)
+        // ratio of "tail" to "acceleration"
+        pulseAlgorithm   : true,
+        pulseScale       : 4,
+        pulseNormalize   : 1,
+
+        // Поддержка тачпада
+        touchpadSupport   : true,
+    })
+    </script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
